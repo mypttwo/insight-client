@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+      body {
+        font-family: 'DM Mono', serif;
+        font-size: 18px;
+      }
+
+.mm-logo {
+  width: 40px;
+  padding-right: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.metamask {
+  background: url(https://raw.githubusercontent.com/MetaMask/brand-resources/c3c894bb8c460a2e9f47c07f6ef32e234190a7aa/SVG/metamask-fox.svg) no-repeat;
+  text-align: left;
+text-indent: 42px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wallet-address{
+  font-size: x-small;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chainId{
+  font-size: smaller;
 }
